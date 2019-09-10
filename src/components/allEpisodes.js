@@ -38,14 +38,7 @@ export default function AllEpisodes() {
         }) => {
           console.log(loading, error, results);
 
-          if (loading)
-            return (
-              <>
-                <div className="row wait text-center">
-                  <h3>Loading...</h3>
-                </div>
-              </>
-            );
+          if (loading) return <h3>Loading...</h3>;
 
           if (error)
             return (

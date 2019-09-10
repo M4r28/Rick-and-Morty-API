@@ -1,4 +1,4 @@
-@import "../../node_modules/bootstrap/scss/bootstrap";
+@import '../../node_modules/bootstrap/scss/bootstrap';
 
 body {
   background: rgb(32, 35, 41);
@@ -49,6 +49,7 @@ button {
 }
 .badge {
   margin-left: 0.6rem;
+  padding: 13px 8px;
 }
 
 .btn-group {
@@ -60,4 +61,12 @@ button {
 
 .wait {
   margin: 3rem;
+}
+
+input {
+  border-radius: 5px;
+border: none;
+text-align: center;
+
+
 }
