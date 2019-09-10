@@ -1,0 +1,63 @@
+@import "../../node_modules/bootstrap/scss/bootstrap";
+
+body {
+  background: rgb(32, 35, 41);
+}
+
+nav {
+  margin-bottom: 1rem;
+}
+
+.container {
+  background: rgb(94, 99, 108);
+  padding: 0 0 3rem 0;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  color: white;
+}
+
+.name {
+  display: block;
+  color: white;
+  font-size: 1.2em;
+}
+
+.info {
+  text-transform: uppercase;
+  color: grey;
+  font-size: smaller;
+}
+
+.data {
+  color: orange;
+}
+
+.active {
+  border: 1px solid blue;
+}
+
+img {
+  max-width: 200px;
+}
+
+button {
+  margin: 0.3rem;
+}
+.badge {
+  margin-left: 0.6rem;
+}
+
+.btn-group {
+  margin: auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.wait {
+  margin: 3rem;
+}
